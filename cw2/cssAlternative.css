@@ -1,0 +1,166 @@
+.main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.content {
+    height: 100%;
+    overflow: auto;
+
+    background-color: #2E2626;
+
+    margin-top:100px;
+    margin-bottom: 5px;
+  }
+
+.menu {
+    width: 100%;
+    position: relative;
+    height: auto;
+    text-align: center;
+    padding: 0 0;
+    float: none;
+    top: 80px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Arial;
+    background-color: #2E2626;
+}
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.menu li{
+    background-color: #22262E;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+.menu a{
+    text-decoration: none;
+    color: red;
+}
+
+.menu a:link, .menu a:visited, .menu a:hover, .menu a:active{
+	cursor:default;
+}
+
+.menu li li{
+    margin-top: 2px;
+    margin-left: 2px;
+    background-color: #343A46;
+    list-style: none;
+    text-align: center;
+}
+
+.menu li:hover{
+	background-color: #0F1114;
+}
+
+.menu li li:hover{
+    background-color: #2A2D31;
+}
+
+.title{
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    top: 5px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Georgia;
+    background-color: #2E2626;
+}
+
+.listName{
+    font-size: 30px;
+    color: grey;
+    font-family: "Comic Sans MS", serif;
+    margin: 20px;
+
+}
+
+body{
+    background-image: url(background.jpg);
+    color: grey;
+}
+
+h1{
+    font-style: oblique;
+    color: black;
+    letter-spacing: 10px;
+}
+
+h2{
+    font-family: fantasy;
+    letter-spacing: 2px;
+    color: red ;
+}
+
+p{
+    text-indent: 20px;
+}
+
+p:first-letter{
+    font-size: 30px;
+    color: black;
+}
+
+a:hover{
+    color: dodgerblue;
+    cursor: default;
+}
+
+table{
+    border: solid black;
+    border-width: 5px;
+    color: black;
+}
+
+#col1{
+    background-color: blue;
+}
+
+#col2{
+    background-color: yellow;
+}
+
+#col3{
+    background-color: red;
+}
+
+thead{
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+ol ol{
+    list-style-type: lower-roman;
+}
+
+ol ol ol{
+    list-style-type: lower-greek;
+}
+
+#o1{
+    float: left;
+    margin-left: 0;
+}
+
+#o2{
+    float: right;
+    margin-right: 0;
+}
