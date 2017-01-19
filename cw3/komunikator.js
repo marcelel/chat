@@ -20,7 +20,7 @@ function display() {
                 document.getElementById("text").innerHTML = xhttp.responseText;
             }
         }
-        if (xhttp.readyState == 4){
+        if (xhttp.readyState == 4 && xhttp.status == 200){
             setTimeout(function () {
                 xhttp.open("GET", "messages.php", true);
                 xhttp.send();
